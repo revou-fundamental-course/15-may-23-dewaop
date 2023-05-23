@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+html {
+  font-family: "Roboto", sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+.bg-primary {
+  background-color: #099af2;
+}
+.text-white {
+  color: #ffff;
+}
+.text-gray {
+  color: #e6ebf2;
+}
+.nav {
+  padding: 1px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.persegi {
+  text-align: center;
+  color: #fff;
+  background-color: #099af2;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+.persegi-panjang {
+  text-align: center;
+  color: #099af2;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.button-primary {
+  width: auto;
+  background-color: #099af2;
+  color: #fff;
+}
+
+.button-warning {
+  background-color: #febd4d;
+  color: #fff;
+}
+
+.button-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.button-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button-outline-primary {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #099af2;
+  background-color: transparent;
+  color: #099af2;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button-outline-primary:hover {
+  background-color: #099af2;
+  color: #fff;
+}
+.mt-2 {
+  margin-top: 2px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.p-2 {
+  padding: 1px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: -10px;
+}
+.col {
+  padding: 15px 20px;
+  width: auto;
+}
+.card {
+  width: auto;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #099af2;
+  color: #fff;
+  padding: 10px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.card-content {
+  padding: 20px;
+  color: #000;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+.form-control {
+  display: block;
+  width: 95%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
