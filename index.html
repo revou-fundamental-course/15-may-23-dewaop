@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KATIK | kalkulator Matematik Persegi & Persegi Panjang</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <style></style>
+  </head>
+  <body>
+    <div class="nav bg-primary">
+      <h1 class="text-center text-white">
+        KATIK &nbsp; <span class="text-gray">kalkulator Matematik</span>
+      </h1>
+    </div>
+    <div class="container">
+      <h3 class="text-center">Welcome to Katik</h3>
+      <p class="text-center">
+        Hai sobat, Selamat datang di katik :) <br />
+        Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan
+        keliling bangun datar
+      </p>
+      <div class="persegi">Persegi</div>
+      <div class="persegi-panjang">Persegi Panjang</div>
+      <br />
+      <br />
+      <div class="row">
+        <!-- luas persegi -->
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="text-center text-white bg-primary">Luas Persegi</h4>
+            </div>
+            <div class="card-content">
+              <img src="assets/img/persegi.webp" alt="" width="30%" />
+
+              <h4>Rumus Luas Persegi Yaitu :</h4>
+              <p class="text-center"><b>L = S x S</b></p>
+              <p>Dimana :</p>
+              <p>L = Luas</p>
+              <p>S = Sisi</p>
+              <hr />
+              <h1 class="text-center">Hitung Luas Persegi</h1>
+              <!-- form input -->
+              <input
+                type="number"
+                name=""
+                id="sisi-luas"
+                class="form-control"
+                placeholder="Nilai Sisi"
+              />
+              <!-- end form input -->
+              <!-- output -->
+              <div id="output_luas"></div>
+              <!-- end output -->
+              <div class="text-center mt-10">
+                <button
+                  type="submit"
+                  class="button button-primary"
+                  onclick="hitung_luas()"
+                >
+                  Hitung
+                </button>
+                <a
+                  href="#"
+                  onclick="location.reload()"
+                  class="button button-warning"
+                  >Reset</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end luas persegi -->
+        <!-- keliling persegi -->
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="text-center text-white bg-primary">
+                Keliling Persegi
+              </h4>
+            </div>
+            <div class="card-content">
+              <img src="assets/img/persegi.webp" alt="" width="30%" />
+
+              <h4>Rumus Keliling Persegi Yaitu :</h4>
+              <p class="text-center"><b>K = 4 x S</b></p>
+              <p>Dimana :</p>
+              <p>K = Keliling</p>
+              <p>S = Sisi</p>
+              <hr />
+              <h1 class="text-center">Hitung Keliling Persegi</h1>
+              <!-- form input -->
+              <input
+                type="number"
+                name=""
+                id="sisi-keliling"
+                class="form-control"
+                placeholder="Nilai Sisi"
+              />
+              <!-- end form input -->
+              <!-- output -->
+              <div id="output_keliling"></div>
+              <!-- end output -->
+              <div class="text-center mt-10">
+                <button
+                  type="submit"
+                  class="button button-primary"
+                  onclick="hitung_keliling()"
+                >
+                  Hitung
+                </button>
+                <a
+                  href="#"
+                  onclick="location.reload()"
+                  class="button button-warning"
+                  >Reset</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end keliling persegi -->
+      </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
